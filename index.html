@@ -1,382 +1,299 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Personal portfolio of Ineb Hussen, a Software Engineering student.">
+    <meta name="description" content="Portfolio of a Software Engineering student at Addis Ababa Science and Technology University.">
+    <meta name="keywords" content="Software Engineering, Portfolio, Web Development, Python, React, HTML">
+    <meta name="author" content="Software Engineering Student">
 
-    <title>Ineb Hussen | Personal Portfolio</title>
+    <title>My Portfolio</title>
+    <button type="button"
+onclick="document.getElementById('hireDialog').showModal()">
+    Hire Me
+</button>
 
-    <link rel="icon" type="favicon.jpg" href="favicon.jpg">
+<dialog id="hireDialog">
 
+    <h2>Let's Work Together!</h2>
+
+    <p>I am interested in learning opportunities,
+       internships and collaborative projects.</p>
+
+    <p>
+        <a href="#contact">Contact Me</a>
+    </p>
+
+    <button type="button"
+    onclick="document.getElementById('hireDialog').close()">
+        Close
+    </button>
+
+</dialog>
 </head>
 
 <body>
 
     <header>
+        <h1>My Portfolio</h1>
 
-        <h1>Ineb Hussen</h1>
-
-        <p><strong>Software Engineering Student | Aspiring Developer | Lifelong Learner</strong></p>
-
-        <img src="profile.jpg" alt="Portrait of Ineb Hussen" width="180">
-
-        <hr>
+        <p>Software Engineering Student | Aspiring Developer</p>
 
         <nav>
-
-            <a href="#about">About Me</a> |
-
-            <a href="#inspiration">Inspiration</a> |
-
+            <a href="#about">About</a> |
             <a href="#skills">Skills</a> |
-
-            <a href="#roadmap">Learning Roadmap</a> |
-
-            <a href="#tools">Tools</a> |
-
             <a href="#projects">Projects</a> |
-
             <a href="#education">Education</a> |
-
             <a href="#contact">Contact</a> |
-
-            <a href="projects.html">More Projects</a>
-
+            <a href="projects.html">All Projects</a>
         </nav>
-
     </header>
-
-    <hr>
 
     <main>
 
         <section id="about">
-
             <h2>About Me</h2>
 
             <p>
-
-                Hello! My name is <strong>Ineb Hussen</strong>. I am a Software Engineering
-
-                student who enjoys exploring technology, solving problems, and building
-
-                useful digital solutions.
-
+                I am a Software Engineering student at Addis Ababa
+                Science and Technology University with an interest
+                in programming, technology and problem solving.
             </p>
 
             <p>
-
-                I am interested in web development, artificial intelligence, and
-
-                programming. I believe that learning is a continuous journey, and
-
-                every project is an opportunity to grow.
-
+                I enjoy learning new technologies, building projects
+                and sharing knowledge with others.
             </p>
 
-        </section>
+            <h3>What Inspires Me</h3>
+            <h3>A Talk I Recommend</h3>
 
-        <hr>
+<iframe
+    src="https://www.bing.com/videos/riverview/relatedvideo?q=islamic+inspirational+talk&&mid=3AF8CBC17EF50E8E675D3AF8CBC17EF50E8E675D&churl=https%3a%2f%2fwww.youtube.com%2fchannel%2fUCNu3R7RWYKE0yNLlcQhIUgQ&FORM=VRDGAR"
+    width="560"
+    height="315"
+    title="An inspirational talk"
+    allowfullscreen>
+</iframe>
+<h3>Hear My Introduction</h3>
 
-        <section id="inspiration">
-
-            <h2>What Inspires Me</h2>
-
+<audio controls>
+    <source src="media/intro.mp3" type="audio/mpeg">
+    Your browser does not support audio.
+</audio>
             <blockquote>
-
-                "The best way to predict the future is to create it."
-
+                The best way to predict the future is to create it.
             </blockquote>
-
-            <p>
-
-                This idea reminds me to take action, keep learning, and use my
-
-                knowledge to make a positive contribution.
-
-            </p>
-
-            <p>
-
-                My personal goal is to combine knowledge, creativity, and technology
-
-                to create meaningful solutions.
-
-            </p>
-
-            <p>
-
-                One of my favorite reminders is <q>Never stop learning.</q>
-
-            </p>
-
         </section>
-
-        <hr>
 
         <section id="skills">
-
-            <h2>My Skills</h2>
-
-            <h3>Programming Languages</h3>
+            <h2>Skills</h2>
 
             <ul>
-
-                <li>Python</li>
-
-                <li>C++</li>
-
+                <li>HTML</li>
+                <li>CSS</li>
                 <li>JavaScript</li>
-
-            </ul>
-
-            <h3>Web Development</h3>
-
-            <ul>
-
-                <li>HTML
-
-                    <ul>
-
-                        <li>Page structure</li>
-
-                        <li>Forms and links</li>
-
-                        <li>Tables and lists</li>
-
-                    </ul>
-
-                </li>
-
                 <li>React</li>
-
-                <li>Node.js fundamentals</li>
-
+                <li>Python</li>
+                <li>Node.js</li>
+                <li>C++</li>
             </ul>
+            <h3>My Skill Levels</h3>
 
-            <h3>Other Skills</h3>
+<p>
+    HTML:
+    <meter value="0.8" min="0" max="1">80%</meter>
+</p>
 
-            <ul>
+<p>
+    Python:
+    <meter value="0.7" min="0" max="1">70%</meter>
+</p>
 
-                <li>Graphic Design</li>
-
-                <li>Video Editing</li>
-
-                <li>Teamwork and Collaboration</li>
-
-                <li>Problem Solving</li>
-
-            </ul>
-
+<p>
+    JavaScript:
+    <meter value="0.5" min="0" max="1">50%</meter>
+</p>
         </section>
-
-        <hr>
-
-        <section id="roadmap">
-
-            <h2>My Learning Roadmap</h2>
-
-            <ol>
-
-                <li>Strengthen programming fundamentals.</li>
-
-                <li>Improve my understanding of data structures and algorithms.</li>
-
-                <li>Develop responsive web applications.</li>
-
-                <li>Explore backend development and databases.</li>
-
-                <li>Build practical projects and contribute to teamwork.</li>
-
-                <li>Continue learning artificial intelligence and machine learning.</li>
-
-            </ol>
-
-        </section>
-
-        <hr>
-
-        <section id="tools">
-
-            <h2>Tools I Use</h2>
-
-            <dl>
-                <dt><strong>Visual Studio Code</strong></dt>
-
-                <dd>My primary code editor for programming and web development.</dd>
-
-                <dt><strong>Git and GitHub</strong></dt>
-
-                <dd>Tools for version control and managing project repositories.</dd>
-
-                <dt><strong>Figma and Canva</strong></dt>
-
-                <dd>Tools for design and visual content creation.</dd>
-
-                <dt><strong>Google Colab</strong></dt>
-
-                <dd>An environment for experimenting with Python and machine learning.</dd>
-
-            </dl>
-
-        </section>
-
-        <hr>
 
         <section id="projects">
+            <h2>Projects</h2>
 
-            <h2>Featured Projects</h2>
+            <article>
+                <h3>Simple Calculator</h3>
+                <p>A calculator application developed using programming concepts.</p>
+                <h3>Watch My Project Demo</h3>
 
-            <h3>Calculator Application</h3>
+<video controls
+       poster="images/project-hackathon.jpg"
+       width="640" height="360">
 
-            <img src="images/project-calculator.png" alt="Screenshot of calculator project" width="250">
+    <source src="media/Demo-video.mp4" type="video/mp4">
 
-            <p>A beginner programming project that performs basic mathematical operations.</p>
+    <source src="media/Demo-video.webm" type="video/webm">
 
-            <h3>Library Management System</h3>
+    <track src="media/Demo-video.vtt"
+           kind="captions"
+           srclang="en"
+           label="English"
+           default>
 
-            <img src="images/project-library.png" alt="Screenshot of library management project" width="250">
+    Your browser does not support video.
 
-            <p>A project idea focused on organizing books and managing library records.</p>
+</video>
+            </article>
 
-            <h3>AI Skincare Project</h3>
+            <article>
+                <h3>Digital Cafeteria Management System</h3>
+                <p>A system designed to manage cafeteria operations digitally.</p>
+            </article>
 
-            <p>
+            <article>
+                <h3>University Event Platform</h3>
+                <p>A web platform for discovering and managing university events.</p>
 
-                A hackathon project exploring an AI-based skincare solution with
+            </article>
 
-                multilingual support for Ethiopian users.
-
-            </p>
-
-            <h3>University Event Platform</h3>
-
-            <p>
-
-                A web development project built with React to present university
-
-                events and provide a simple user interface.
-
-            </p>
-
-            <p><a href="projects.html">Explore all my projects</a></p>
-
+            <p><a href="projects.html">See all my projects</a></p>
         </section>
-
-        <hr>
 
         <section id="education">
-
             <h2>Education</h2>
-
-            <h3>Academic Background</h3>
-
+<p>
+    I study <abbr title="Software Engineering">SE</abbr>
+    at <abbr title="Addis Ababa Science and Technology University">AASTU</abbr>.
+</p>
+            <p>Degree Progress:</p>
+            <progress value="40" max="100">40%</progress>
             <p>
-
-                I am currently studying Software Engineering at
-
-                <strong>Addis Ababa Science and Technology University (AASTU)</strong>.
-
-            </p>
-
-           
-                        <h3>Academic Recognition</h3>
-
-                        <p>Presidential Award</p>
-
-                    
-
+    Addis Ababa Science and Technology University,
+    <time datetime="2023-09">September 2023</time> – present
+</p>
         </section>
 
-        <hr>
-
         <section id="contact">
+            <h2>Contact</h2>
+            <h3>Where I Study</h3>
 
-            <h2>Contact Me</h2>
+<iframe
+    src="https://www.bing.com/maps/search?name=Addis+Ababa+Science+and+Technology+University&mepi=0%7E%7EEmbedded%7ELargeMapLink&FORM=MPSRPL&style=r&ss=id.ypid%3A2F33F84758BD20DE&q=Addis+Ababa+Science+and+Technology%E2%80%A6&ppois=8.885198593139648_38.809730529785156_Addis+Ababa+Science+and+Technology+University"
+    width="600"
+    height="300"
+    title="Map of AASTU">
+</iframe>
+<h3>Send Me a Message</h3>
 
-            <p>
+<form action="thank-you.html" method="post"
+      enctype="multipart/form-data">
 
-                I am always interested in learning, collaboration, and meaningful
+    <fieldset>
+        <legend>Your Details</legend>
 
-                opportunities. Feel free to connect with me.
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname">
+        <br><br>
 
-            </p>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+    </fieldset>
+<fieldset>
+    <legend>Project Details</legend>
 
-            <h3>Connect With Me</h3>
+    <label for="phone">Phone Number:</label>
+    <input type="text" id="phone" name="phone"
+           pattern="0[79][0-9]{8}"
+           title="0900000000">
+    <br><br>
 
-            <img
+    <p>Preferred Contact Method:</p>
 
-                src="images/connect-banner.png"
+    <input type="radio" id="by-email"
+           name="contact-method" value="email" checked>
+    <label for="by-email">Email</label>
 
-                alt="Contact banner with links to GitHub, LinkedIn, and email"
+    <input type="radio" id="by-phone"
+           name="contact-method" value="phone">
+    <label for="by-phone">Phone</label>
 
-                usemap="#contactmap"
+    <br><br>
 
-                width="600"
+    <label for="meeting">Meeting Date:</label>
+    <input type="date" id="meeting" name="meeting"
+           min="2026-11-01">
+    <br><br>
 
-                height="200">
+    <label for="weeks">Project Duration (weeks):</label>
+    <input type="number" id="weeks" name="weeks"
+           min="1" max="52" step="1">
+    <br><br>
 
-            <map name="contactmap">
+    <label for="brief">Attach Project Brief:</label>
+    <input type="file" id="brief" name="brief">
+    <br><br>
 
-                <area shape="rect" coords="20,40,180,160"
+    <label for="colour">Preferred Website Colour:</label>
+    <input type="color" id="colour" name="colour"
+           value="#1f5fa8">
+    <br><br>
 
-                      href="https://github.
-                      com/ini-huss"
+    <label for="rating">Rate My Portfolio (1-10):</label>
+    <input type="range" id="rating" name="rating"
+           min="1" max="10" value="7">
 
-                      alt="Visit my GitHub profile"
+</fieldset>
+    <fieldset>
+        <legend>Your Message</legend>
 
-                      target="_blank">
+        <label for="reason">Reason for Contact:</label>
 
-                <area shape="circle" coords="300,100,70"
+        <select id="reason" name="reason">
+            <optgroup label="Work">
+                <option value="internship">Internship</option>
+                <option value="freelance">Freelance Project</option>
+                <option value="job">Job Opportunity</option>
+            </optgroup>
 
-                      href="https://www.linkedin.com/"
+            <optgroup label="Study">
+                <option value="group-project">Group Project</option>
+                <option value="tutoring">Tutoring</option>
+            </optgroup>
 
-                      alt="Visit LinkedIn"
+            <option value="other">Other</option>
+        </select>
 
-                      target="_blank">
+        <br><br>
 
-                <area shape="rect" coords="420,40,580,160"
+        <label for="message">Message:</label><br>
 
-                      href="inebo4632@gmail.com"
+        <textarea id="message" name="message"
+                  rows="6" cols="40"></textarea>
+<br>
 
-                      alt="Send me an email">
+<input type="checkbox" id="copy" name="copy" value="yes">
+<label for="copy">Send me a copy of this message</label>
+    </fieldset>
 
-            </map>
+    <button type="submit">Send Message</button>
+    <button type="reset">Clear</button>
 
-            <p>GitHub: <a href="https://github.com/ini-huss" target="_blank">My GitHub Profile</a></p>
-
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/ineb-hussen">My LinkedIn Profile</a></p>
-
-            <p>Email: <a href="inebo4632@gmail.com">Send me an email</a></p>
-
-            <p>Phone: <a href="tel:+251935139936">Contact me by phone</a></p>
-
-            <p><a href="files/cv.pdf" download>Download My CV</a></p>
-
-            <p><a href="https://validator.w3.org/" target="_blank">Validate my HTML</a></p>
-
+</form>
+            <p>Email: inebo4632@gmail.com</p>
+            <p>GitHub: <a href="https://github.com/ini-huss">My GitHub</a></p>
         </section>
 
     </main>
 
-    <hr>
-
     <footer>
 
-        <p>&copy; 2026 Ineb Hussen. All rights reserved.</p>
+    <p>&copy; 2026. All rights reserved.</p>
 
-        <p>Created as part of Internet Programming I.</p>
+    <p>
+        Last updated:
+        <time datetime="2026-11-02">2 November 2026</time>
+    </p>
 
-        <p><a href="#top">Back to Top</a></p>
-
-    </footer>
+</footer>
 
 </body>
-
 </html>
